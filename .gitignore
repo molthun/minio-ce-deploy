@@ -1,0 +1,32 @@
+# Local secrets and runtime state
+.env
+*.env
+!env/*.example
+*.key
+*.pem
+*.crt
+*.p12
+*.pfx
+secrets/
+data/
+logs/
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+*.swp
+*~
+
+# OS/editor metadata
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Local package/release scratch space
+*.tar.gz
+*.zip
+*.sha256
+!CHECKSUMS.sha256
+releases/
